@@ -1,0 +1,25 @@
+{
+  "name": "@xprs/fcm-notification-hub",
+  "version": "0.0.1",
+  "description": "A RESTful web service for sending Firebase Cloud Messaging notifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Francis Brito <fr.br94@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "is-express-app": "^4.0.0",
+    "is-function": "^1.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "ava": {
+    "babel": false
+  }
+}
